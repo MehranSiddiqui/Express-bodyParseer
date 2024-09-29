@@ -3,7 +3,7 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 import bodyParser from "body-parser";
 const app = express();
-const DEFAULT_PORT = 3000;
+export const DEFAULT_PORT = 3000;
 import morgan from "morgan";
 //Used to read file path w.r.t the computer (server or local)
 //.use is used for mounting the middleware
